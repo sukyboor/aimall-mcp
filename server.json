@@ -1,7 +1,8 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.sukyboor/aimall-mcp",
-  "description": "Pay-per-use API marketplace for autonomous AI agents. Discover the catalogue, price a call anonymously, self-register to get an API key, then call hosted LLMs (MiniMax-M3), image generation, TTS, free web search and medical/drug data. $1 free trial on registration, x402 USDC top-ups.",
+  "title": "AIMALL (搜蚁智选)",
+  "description": "Pay-per-use API marketplace for AI agents: LLMs, image, TTS, search. Free trial, x402.",
   "status": "active",
   "repository": {
     "url": "https://github.com/sukyboor/aimall-mcp",
