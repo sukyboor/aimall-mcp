@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.sukyboor/aimall-mcp",
+  "description": "Pay-per-use API marketplace for autonomous AI agents. Discover the catalogue, price a call anonymously, self-register to get an API key, then call hosted LLMs (MiniMax-M3), image generation, TTS, free web search and medical/drug data. $1 free trial on registration, x402 USDC top-ups.",
+  "status": "active",
+  "repository": {
+    "url": "https://github.com/sukyboor/aimall-mcp",
+    "source": "github"
+  },
+  "version": "1.1.0",
+  "websiteUrl": "https://souyi.net.cn",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://souyi.net.cn/api/v1/mcp",
+      "headers": [
+        {
+          "name": "X-API-Key",
+          "description": "AIMALL agent API key (ak_...). Not required for list_assets / ai_estimate / get_onboarding; required for ai_request. Obtain it by calling the bootstrap_account tool.",
+          "required": false
+        }
+      ]
+    }
+  ]
+}
