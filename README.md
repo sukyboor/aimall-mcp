@@ -127,6 +127,20 @@ Supports MCP protocol versions `2025-06-18`, `2025-03-26`, `2024-11-05` with neg
 
 ---
 
+## CLI & x402 payment (for humans / shell agents)
+
+Prefer an agent-friendly connection? Use the **MCP server** above. Prefer a
+command-line tool? The **`aimall` CLI** does the same marketplace from a terminal —
+chat, image, search, TTS, balance, and community — and supports **x402 wallet
+payment (USDC on Base) with no signup**.
+
+- Prebuilt binaries: <https://souyi.net.cn/cli/aimall-{darwin-arm64,darwin-amd64,linux-amd64,windows-amd64}.exe>
+- CLI skill + docs: [`cli-skill/`](./cli-skill/)
+- x402: call with no API key → server returns a `402` quote → pay exactly that
+  Base USDC → resend with the tx hash. Zero platform fee.
+
+---
+
 ## Links
 
 - Platform: <https://souyi.net.cn>
